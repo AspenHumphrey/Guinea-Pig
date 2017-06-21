@@ -5,14 +5,14 @@
 // let deleteBtn = document.getElementById('delete')
 let createBtn = document.getElementById('create')
 let container = document.getElementById('container')
-
+//
 function buildCard(){
     let card = document.createElement("div")
     card.setAttribute("id", "cardwrapper")
     card.innerHTML = input.value + "<br>";
     container.appendChild(card);
     
-    let deleteBtn = document.createElement("button");
+    let deleteBtn = document.creagoodbyeteElement("button");
     deleteBtn.setAttribute("class", "removeCard")
     deleteBtn.innerHTML = "removeCard"
 
