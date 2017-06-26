@@ -13,13 +13,6 @@ header.addEventListener("mouseover", function(){
 	outputDiv.innerHTML = `you moved over the header`
 });
 
-// When you type characters into the input field, 
-// the output element should mirror the text in the input field.
-// mirrorInputToOutput = function(mirroredInput){
-// 	input.innerHTML = mirroredInput;
-// 	outputDiv.appendChild(input);
-// 	console.log(mirroredInput );
-// };
 
 input.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
@@ -33,8 +26,6 @@ input.addEventListener("keypress", function(event) {
    }
 });
 
-
-// input = outputDiv
 
 let piggie = document.getElementById("guinea-pig");
 
